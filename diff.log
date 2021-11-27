@@ -1,0 +1,130 @@
+11c11
+<   Entry point address:               0x400890
+---
+>   Entry point address:               0x4c9937
+13c13
+<   Start of section headers:          912800 (bytes into file)
+---
+>   Start of section headers:          916896 (bytes into file)
+57,59c57,59
+<   [16] .gcc_except_table PROGBITS         00000000004c9894  000c9894
+<        00000000000000a3  0000000000000000   A       0     0     1
+<   [17] .tdata            PROGBITS         00000000006c9eb8  000c9eb8
+---
+>   [16] .gcc_except_table PROGBITS         00000000004c9894  000ca894
+>        00000000000000b1  0000000000000000   A       0     0     1
+>   [17] .tdata            PROGBITS         00000000006c9eb8  000caeb8
+61c61
+<   [18] .tbss             NOBITS           00000000006c9ed8  000c9ed8
+---
+>   [18] .tbss             NOBITS           00000000006c9ed8  000caed8
+63c63
+<   [19] .init_array       INIT_ARRAY       00000000006c9ed8  000c9ed8
+---
+>   [19] .init_array       INIT_ARRAY       00000000006c9ed8  000caed8
+65c65
+<   [20] .fini_array       FINI_ARRAY       00000000006c9ee8  000c9ee8
+---
+>   [20] .fini_array       FINI_ARRAY       00000000006c9ee8  000caee8
+67c67
+<   [21] .jcr              PROGBITS         00000000006c9ef8  000c9ef8
+---
+>   [21] .jcr              PROGBITS         00000000006c9ef8  000caef8
+69c69
+<   [22] .data.rel.ro      PROGBITS         00000000006c9f00  000c9f00
+---
+>   [22] .data.rel.ro      PROGBITS         00000000006c9f00  000caf00
+71c71
+<   [23] .got              PROGBITS         00000000006c9fe8  000c9fe8
+---
+>   [23] .got              PROGBITS         00000000006c9fe8  000cafe8
+73c73
+<   [24] .got.plt          PROGBITS         00000000006ca000  000ca000
+---
+>   [24] .got.plt          PROGBITS         00000000006ca000  000cb000
+75c75
+<   [25] .data             PROGBITS         00000000006ca080  000ca080
+---
+>   [25] .data             PROGBITS         00000000006ca080  000cb080
+77c77
+<   [26] .bss              NOBITS           00000000006cbb60  000cbb50
+---
+>   [26] .bss              NOBITS           00000000006cbb60  000ccb50
+79c79
+<   [27] __libc_freeres_pt NOBITS           00000000006cd3d8  000cbb50
+---
+>   [27] __libc_freeres_pt NOBITS           00000000006cd3d8  000ccb50
+81c81
+<   [28] .comment          PROGBITS         0000000000000000  000cbb50
+---
+>   [28] .comment          PROGBITS         0000000000000000  000ccb50
+83c83
+<   [29] .note.stapsdt     NOTE             0000000000000000  000cbb88
+---
+>   [29] .note.stapsdt     NOTE             0000000000000000  000ccb88
+85c85
+<   [30] .debug_aranges    PROGBITS         0000000000000000  000ccaa0
+---
+>   [30] .debug_aranges    PROGBITS         0000000000000000  000cdaa0
+87c87
+<   [31] .debug_info       PROGBITS         0000000000000000  000ccad0
+---
+>   [31] .debug_info       PROGBITS         0000000000000000  000cdad0
+89c89
+<   [32] .debug_abbrev     PROGBITS         0000000000000000  000ccdd6
+---
+>   [32] .debug_abbrev     PROGBITS         0000000000000000  000cddd6
+91c91
+<   [33] .debug_line       PROGBITS         0000000000000000  000ccebb
+---
+>   [33] .debug_line       PROGBITS         0000000000000000  000cdebb
+93c93
+<   [34] .debug_str        PROGBITS         0000000000000000  000ccf99
+---
+>   [34] .debug_str        PROGBITS         0000000000000000  000cdf99
+95c95
+<   [35] .shstrtab         STRTAB           0000000000000000  000debf3
+---
+>   [35] .shstrtab         STRTAB           0000000000000000  000dfbf3
+97c97
+<   [36] .symtab           SYMTAB           0000000000000000  000cd100
+---
+>   [36] .symtab           SYMTAB           0000000000000000  000ce100
+99c99
+<   [37] .strtab           STRTAB           0000000000000000  000d8338
+---
+>   [37] .strtab           STRTAB           0000000000000000  000d9338
+112,113c112,113
+<                  0x00000000000c9937 0x00000000000c9937  R E    200000
+<   LOAD           0x00000000000c9eb8 0x00000000006c9eb8 0x00000000006c9eb8
+---
+>                  0x00000000000c9945 0x00000000000c9945  R E    200000
+>   LOAD           0x00000000000caeb8 0x00000000006c9eb8 0x00000000006c9eb8
+115c115
+<   NOTE           0x0000000000000190 0x0000000000400190 0x0000000000400190
+---
+>   NOTE           0x0000000000001190 0x0000000000400190 0x0000000000400190
+117c117
+<   TLS            0x00000000000c9eb8 0x00000000006c9eb8 0x00000000006c9eb8
+---
+>   TLS            0x00000000000caeb8 0x00000000006c9eb8 0x00000000006c9eb8
+119c119
+<   GNU_STACK      0x0000000000000000 0x0000000000000000 0x0000000000000000
+---
+>   GNU_STACK      0x0000000000001000 0x0000000000000000 0x0000000000000000
+121c121
+<   GNU_RELRO      0x00000000000c9eb8 0x00000000006c9eb8 0x00000000006c9eb8
+---
+>   GNU_RELRO      0x00000000000caeb8 0x00000000006c9eb8 0x00000000006c9eb8
+126c126
+<    00     .note.ABI-tag .note.gnu.build-id .rela.plt .init .plt .text __libc_freeres_fn __libc_thread_freeres_fn .fini .rodata __libc_subfreeres __libc_atexit .stapsdt.base __libc_thread_subfreeres .eh_frame .gcc_except_table 
+---
+>    00     .note.ABI-tag .note.gnu.build-id .rela.plt .init .plt .text __libc_freeres_fn __libc_thread_freeres_fn .fini .rodata __libc_subfreeres __libc_atexit .stapsdt.base __libc_thread_subfreeres .eh_frame 
+128c128
+<    02     .note.ABI-tag .note.gnu.build-id 
+---
+>    02     
+2066c2066
+< Displaying notes found at file offset 0x000cbb88 with length 0x00000f18:
+---
+> Displaying notes found at file offset 0x000ccb88 with length 0x00000f18:
